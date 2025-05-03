@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="icon" type="image/png" href="icon.jfif">
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 60px;
+        }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav">
+
+            <!--the navbar expands at large screens but collapses into a toggle button on smaller screens -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+        <div class="container">
+            <!--navbar-brand styles the brand name inside the navbar, making it bigger and bold.-->
+            <a class="navbar-brand" href="#">Atique Ur Rehman</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <!--here making links of all the sections in navbar-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">contact me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#info">Info</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+                <!--home -->
+<section id="home" class="text-center py-3 mt-0">
+    <div class="container">
+        <img src="pic2.jpg" class="rounded-circle mb-3" alt="Profile Picture">
+        <h2>Atique Ur Rehman</h2>
+        <p class="text-muted">Student of BSCS</p>
+    </div>
+</section>
+
+    <section id="education" class="py-3">
+        <div class="container">
+            <h2 class="text-center">Education</h2>
+            <table class="table table-striped">
+                <!-- table head, for header and other is body on lower-->
+                <thead class="table-primary">
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institute</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pre-engineering</td>
+                        <td>Government College</td>
+                        <td>2021-2023</td>
+                    </tr>
+                    <tr>
+                        <td>BS Computer Science</td>
+                        <td>ITU punjab</td>
+                        <td>2023-2027</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </section>
+
+    <section id = "experience" class="py-3 bg-light">
+        <div class="container">
+            <h2 class="text-center bg-info" >Experience</h2>
+            <div class="row">
+                <!-- to divide the grids in row into 3 parts-->
+            <div class="col-md-4">
+                <!--card is a Bootstrap card component, used to display content inside a bordered box.-->
+                <div class="card p-4">
+                    <h5 class="card-title">Game Development</h5>
+                    <p class="card-text">work in unity</p>
+                    <ul>
+                        <li>2D games</li>
+                        <li>3D games</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-4">
+                    <h5 class="card-title">web Development</h5>
+                    <p class="card-text">HTML, CSS, flasks/python</p>
+                    <ul>
+                        <li>news website project</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-1">
+                    <h5 class="card-title">CPP coding</h5>
+                    <p class="card-text">projects:</p>
+                    <ul>
+                        <li>Chess game</li>
+                        <li>Snakes</li>
+                        <li>game of life</li>
+                        <li>Gomuko</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <form>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <!--form control is for visual appealing-->
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                </div>
+                <div class="mb-3"> <!--adds a margin-bottom mb of size 3-->
+                    <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success px-4">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer id="info" class="text-center py-4 bg-dark text-white">
+        <div class="container">
+            <p><strong>Email:</strong> <a href="mailto:matiquerehman98@gmail.com" class="text-white">matiquerehman98@gmail.com</a></p>
+            <p><strong>Phone:</strong> +92 3456 7890</p>
+            <p><strong>Address:</strong> 123 Gulberg, lahore, pakistan</p>
+            <p><strong>LinkedIn:</strong> <a href="#" class="text-white">linkedin.com/in/atique</a></p>
+            <hr class="my-3 border-light">
+            <p>&copy; 2025 Atique ur Rehman. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+</body>
+</html>
