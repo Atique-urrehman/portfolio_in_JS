@@ -1,0 +1,140 @@
+/* styles/Contact.css */
+:root {
+    --bg-color-light: #fff;
+    --bg-color-dark: #121212;
+    --text-color-light: #000;
+    --text-color-dark: #fff;
+    --heading-color-light: #343a40;
+    --heading-color-dark: #f8f9fa;
+    --input-bg-light: #ffffff;
+    --input-bg-dark: #333;
+    --input-text-light: #000;
+    --input-text-dark: #fff;
+    --button-bg-light: #343a40;
+    --button-bg-dark: #007bff;
+    --button-text-light: #fff;
+    --button-text-dark: #fff;
+    --info-text-light: #555;
+    --info-text-dark: #ddd;
+  }
+  
+  /* Light Theme */
+  body.light {
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
+  }
+  
+  body.light .contact-container {
+    background-color: var(--bg-color-light);
+  }
+  
+  body.light .contact-form-wrapper {
+    background-color: #f8f9fa;
+    color: var(--text-color-light);
+  }
+  
+  body.light .contact-input,
+  body.light .contact-textarea {
+    background-color: var(--input-bg-light);
+    color: var(--input-text-light);
+  }
+  
+  body.light .contact-button {
+    background-color: var(--button-bg-light);
+    color: var(--button-text-light);
+  }
+  
+  body.light .contact-info p {
+    color: var(--info-text-light);
+  }
+  
+  /* dark theme */
+  body.dark {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+  }
+  
+  body.dark .contact-container {
+    background-color: var(--bg-color-dark);
+  }
+  
+  body.dark .contact-form-wrapper {
+    background-color: #333;
+    color: var(--text-color-dark);
+  }
+  
+  body.dark .contact-input,
+  body.dark .contact-textarea {
+    background-color: var(--input-bg-dark);
+    color: var(--input-text-dark);
+  }
+  
+  body.dark .contact-button {
+    background-color: var(--button-bg-dark);
+    color: var(--button-text-dark);
+  }
+  
+  body.dark .contact-info p {
+    color: var(--info-text-dark);
+  }
+  
+  .contact-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contact-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contact-input,
+  .contact-textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #495057;
+  }
+  
+  .contact-info {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+  }
+  
+  .contact-info a {
+    color: #0d6efd;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  

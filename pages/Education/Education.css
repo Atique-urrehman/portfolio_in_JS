@@ -1,0 +1,45 @@
+/* styles/Education.css */
+
+.education-container {
+    padding: 30px;
+  }
+  
+  .education-title {
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  .education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .education-card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    border-left: 6px solid #0d6efd;
+    transition: transform 0.3s;
+  }
+  
+  .education-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .education-degree {
+    margin-bottom: 10px;
+    color: #0d6efd;
+  }
+  
+  .education-institute {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  .education-year {
+    margin: 5px 0;
+    color: #555;
+  }
+  

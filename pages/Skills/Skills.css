@@ -1,0 +1,101 @@
+/* src/pages/Skills/Skills.css */
+
+/* Define CSS Variables for Light/Dark themes */
+:root {
+    --bg-color-light: #fff;
+    --bg-color-dark: #121212;
+    --text-color-light: #000;
+    --text-color-dark: #fff;
+    --heading-color-light: #343a40;
+    --heading-color-dark: #f8f9fa;
+    --card-bg-light: #ffffff;
+    --card-bg-dark: #1e1e1e;
+    --card-border-light: #0d6efd;
+    --card-border-dark: #0d6efd;
+  }
+  
+  /* Light Theme */
+  body.light {
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
+  }
+  
+  body.light .skills-heading {
+    color: var(--heading-color-light);
+  }
+  
+  body.light .skill-card {
+    background-color: var(--card-bg-light);
+    border-left: 6px solid var(--card-border-light);
+  }
+  
+  body.light .skill-title {
+    color: var(--card-border-light);
+  }
+  
+  body.light .skill-description {
+    color: #555;
+  }
+  
+  /* Dark Theme */
+  body.dark {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+  }
+  
+  body.dark .skills-heading {
+    color: var(--heading-color-dark);
+  }
+  
+  body.dark .skill-card {
+    background-color: var(--card-bg-dark);
+    border-left: 6px solid var(--card-border-dark);
+  }
+  
+  body.dark .skill-title {
+    color: var(--card-border-dark);
+  }
+  
+  body.dark .skill-description {
+    color: #ddd;
+  }
+  
+  .skills-container {
+    padding: 30px;
+  }
+  
+  .skills-heading {
+    margin-bottom: 20px;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .skill-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .skill-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-title {
+    margin-bottom: 10px;
+  }
+  
+  .skill-description {
+    color: #555;
+  }
+  
