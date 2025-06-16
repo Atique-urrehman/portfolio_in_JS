@@ -6,3 +6,4 @@ https://github.com/Atique-urrehman/portfolio_in_JS/blob/main/screenshots/ss5.jpe
 https://github.com/Atique-urrehman/portfolio_in_JS/blob/main/screenshots/ss6.jpeg
 https://github.com/Atique-urrehman/portfolio_in_JS/blob/main/screenshots/ss7.jpeg
 https://github.com/Atique-urrehman/portfolio_in_JS/blob/main/screenshots/ss8.jpeg
+
